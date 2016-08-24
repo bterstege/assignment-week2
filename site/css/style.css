@@ -1,0 +1,159 @@
+/* Breakpoints > 992px & 768 <> 991 & 767px */
+
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container1{
+	background-color: #666699;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	margin-bottom: 15px;
+	width: 100%;
+
+}
+
+.container2{
+	background-color: #666699;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.container3{
+	background-color: #666699;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	margin-bottom: 15px;
+	width: 100%;
+
+}
+
+.text-menu1{
+	padding: 15px;
+	clear: right;
+	position: relative;
+	width: 100%;
+}
+
+.text-menu2{
+	padding: 15px;
+	clear: right;
+	position: relative;
+	width: 100%;
+}
+
+.title-chicken {
+	background-color: #ff9999;
+	width: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	float: right;
+	clear: left;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.title-beef {
+	background-color: #ff9999;
+	width: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	float: right;
+	clear: left;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+
+.title-sushi {
+	background-color: #ff9999;
+	width: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	float: right;
+	clear: left;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+/* Media bigger than 992 */
+@media (min-width: 992px) {
+
+body {
+	box-sizing: border-box;
+}
+
+.container1 {
+	width: 32%;
+	float: left;
+	margin-right: 2.0%;
+}
+
+.container2{
+	width: 32%;
+	float: left;
+	margin-right: 2.0%;
+
+}
+
+.container3{
+	width: 32%;
+	float: right;
+
+
+} 
+
+}
+
+
+/* Media tussen 768 en 991 */
+@media (min-width: 768px) and (max-width: 991px) {
+
+body {
+	box-sizing: border-box;
+}
+
+.container1 {
+	width: 47.5%;
+	float: left;
+	margin-right: 2.5%;
+}
+
+.container2{
+	width: 47.5%;
+	float: right;
+
+}
+
+.container3{
+	width: 100%;
+	float: left;
+
+} 
+
